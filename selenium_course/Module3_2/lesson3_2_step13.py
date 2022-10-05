@@ -61,7 +61,6 @@ class TestForm(unittest.TestCase):
         welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
         welcome_text = welcome_text_elt.text
 
-        # assert "Congratulations! You have successfully registered!" == welcome_text
         self.assertEqual("Congratulations! You have successfully registered!", welcome_text)
 
         time.sleep(2)
