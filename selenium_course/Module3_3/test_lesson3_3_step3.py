@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import pytest
-# Путь для запуска из директории stepic_auto_tests_course:  pytest selenium_course/Module3_3/test_lesson3_3_step3.py
+# Путь для запуска из директории stepic_auto_tests_course:
+# pytest selenium_course/Module3_3/test_lesson3_3_step3.py
 
 
 def test_form1():
