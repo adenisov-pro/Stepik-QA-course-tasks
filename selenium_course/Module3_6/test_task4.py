@@ -1,5 +1,5 @@
 # Путь для запуска из директории stepic_auto_tests_course:
-# pytest -s -v  selenium_course/Module3_6/test_task4.py
+# pytest -s -v selenium_course/Module3_6/test_task4.py
 
 import pytest
 import time
@@ -39,7 +39,7 @@ def test_solving_the_problem(browser, address):
     # button = browser.find_element(By.CSS_SELECTOR, "button.submit-submission")
     # button.click()
 
-    # Или нажмем button с явным ожиданием
+    # Нажмем button с явным ожиданием
     wait = WebDriverWait(browser, 5)
     button = wait.until(ec.element_to_be_clickable(
         (By.CSS_SELECTOR, "button.submit-submission")))
@@ -57,10 +57,9 @@ def test_solving_the_problem(browser, address):
     if message_text != "Correct!":
         data.append(message_text)
 
-    print('\n\n RESULT =>', "".join(data))
-
+    # print('\n\n RESULT =>', "".join(data))
 
     # Если хотим увидеть упавшие тесты и вручную "доставать" из них
     # кусочки фраз, то используем assert
 
-    # assert message_text == "Correct!", "текст в опциональном фидбеке не совпадает с 'Correct!'"
+    assert message_text == "Correct!", "текст в опциональном фидбеке не совпадает с 'Correct!'"
