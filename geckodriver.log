@@ -1,1 +1,59 @@
 1665515032216	geckodriver	INFO	Listening on 127.0.0.1:57103
+1665516264399	geckodriver	INFO	Listening on 127.0.0.1:49948
+1665517095114	geckodriver	INFO	Listening on 127.0.0.1:50154
+1665517097141	mozrunner::runner	INFO	Running command: "C:\\Total Commander Extended\\Soft\\FirefoxPortable\\App\\Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofilerM0KfA"
+1665517097600	Marionette	INFO	Marionette enabled
+1665517097607	Marionette	INFO	Listening on port 50164
+WebDriver BiDi listening on ws://127.0.0.1:50155
+Read port: 50164
+1665517097877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofilerM0KfA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50155/devtools/browser/77990089-9862-4617-8bde-778cad2940b1
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1665145039, line 6289: unreachable code after return statement
+1665517102797	Marionette	INFO	Stopped listening on port 50164
+1665517132595	geckodriver	INFO	Listening on 127.0.0.1:50208
+1665517134649	mozrunner::runner	INFO	Running command: "C:\\Total Commander Extended\\Soft\\FirefoxPortable\\App\\Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofileAj8yNf"
+1665517135069	Marionette	INFO	Marionette enabled
+1665517135078	Marionette	INFO	Listening on port 50218
+Read port: 50218
+WebDriver BiDi listening on ws://127.0.0.1:50209
+1665517135211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofileAj8yNf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50209/devtools/browser/7e7585a4-1c7a-44fb-a80d-6f43ac2d49af
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1665145039, line 6289: unreachable code after return statement
+1665517139718	Marionette	INFO	Stopped listening on port 50218
+1665517174549	geckodriver	INFO	Listening on 127.0.0.1:50262
+1665517176593	mozrunner::runner	INFO	Running command: "C:\\Total Commander Extended\\Soft\\FirefoxPortable\\App\\Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofile2YoY5t"
+1665517177064	Marionette	INFO	Marionette enabled
+1665517177075	Marionette	INFO	Listening on port 50272
+Read port: 50272
+WebDriver BiDi listening on ws://127.0.0.1:50263
+1665517177214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofile2YoY5t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50263/devtools/browser/ac5e591f-dc9e-46ec-bee2-48f439a51122
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1665145039, line 6289: unreachable code after return statement
+1665517181880	Marionette	INFO	Stopped listening on port 50272
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1665589376547	geckodriver	INFO	Listening on 127.0.0.1:51136
+1665590286022	geckodriver	INFO	Listening on 127.0.0.1:51196
+1665590288074	mozrunner::runner	INFO	Running command: "C:\\Total Commander Extended\\Soft\\FirefoxPortable\\App\\Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofileGQXKSI"
+1665590289140	Marionette	INFO	Marionette enabled
+1665590289146	Marionette	INFO	Listening on port 51206
+Read port: 51206
+WebDriver BiDi listening on ws://127.0.0.1:51197
+1665590289306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofileGQXKSI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51197/devtools/browser/3b91678b-ef60-4965-b273-b8c7baec3684
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1665590292870	Marionette	INFO	Stopped listening on port 51206
+1665590548749	geckodriver	INFO	Listening on 127.0.0.1:51246
+1665590550788	mozrunner::runner	INFO	Running command: "C:\\Total Commander Extended\\Soft\\FirefoxPortable\\App\\Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofiles65wpp"
+1665590551210	Marionette	INFO	Marionette enabled
+1665590551215	Marionette	INFO	Listening on port 51256
+Read port: 51256
+WebDriver BiDi listening on ws://127.0.0.1:51247
+1665590551348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A4F7~1\\AppData\\Local\\Temp\\rust_mozprofiles65wpp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51247/devtools/browser/da72ea3e-1c18-4930-9089-5ece1da8eb05
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1665590554888	Marionette	INFO	Stopped listening on port 51256
