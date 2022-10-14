@@ -45,7 +45,7 @@ def test_solving_the_problem(browser, address):
         (By.CSS_SELECTOR, "button.submit-submission")))
     button.click()
 
-    # находим класс сообщения текст его присваиваем переменной element
+    # находим класс сообщения. текст его присваиваем переменной element
     wait = WebDriverWait(browser, 5)
     message_text = wait.until(
         ec.visibility_of_element_located((
