@@ -1,7 +1,6 @@
 # Путь для запуска:
-# pytest --language=es test_items.py
 # pytest --language=es selenium_course/stepik_auto_test3.6/test_items.py
-# pytest -s -v selenium_course/stepik_auto_test3.6/test_items.py
+
 
 import time
 
@@ -13,9 +12,8 @@ from selenium.webdriver.support import expected_conditions as ec
 
 def test_launching_autotests_for_different_languages(browser):
     link = f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
-    # link = f"https://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/"
     browser.get(link)
-    time.sleep(30)
+    time.sleep(10)
 
     wait = WebDriverWait(browser, 5)
     button_text = wait.until(
@@ -25,5 +23,6 @@ def test_launching_autotests_for_different_languages(browser):
         ))
     ).text
 
-    assert button_text == "Añadir al carrito", "Страница товара на сайте содержит кнопку добавления в корзину"
+    assert button_text is not None, "Страница товара на сайте не содержит кнопку добавления в корзину"
+
 

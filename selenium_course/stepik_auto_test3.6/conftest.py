@@ -9,7 +9,7 @@ def pytest_addoption(parser):
                      default='chrome',
                      help="Choose browser: chrome"
                      )
-    parser.addoption('--user_language',
+    parser.addoption('--language',
                      action='store',
                      default=None,
                      help="Choose from langs: en/ru/es/...)"
@@ -19,17 +19,17 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="function")
 def browser(request):
     browser_name = request.config.getoption("browser_name")
-    user_language = request.config.getoption("user_language")
+    user_language = request.config.getoption("language")
 
     browser = None
-    if browser_name == "chrome" and user_language == "es":
+    if browser_name == "chrome":
         print("\nstart chrome browser for test..")
         options = Options()
         options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
         browser = webdriver.Chrome(options=options)
     else:
         raise pytest.UsageError("--browser_name should be chrome")
-    yield browser, user_language
+    yield browser
     print("\nquit browser..")
     browser.quit()
 
